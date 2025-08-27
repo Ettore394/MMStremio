@@ -22,7 +22,7 @@ jobs:
 
     - name: Add upstream repository
       run: |
-        git remote add upstream https://github.com/UrloMythus/MammaMia.git
+        git remote add upstream https://github.com/UrloMythus/UnHide.git
         git fetch upstream
         git rebase upstream/main
       env:
